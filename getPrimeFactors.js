@@ -12,5 +12,5 @@ module.exports = function(number){
     result.push(number)
     return result
   }
-  return []
+  return result
 }
