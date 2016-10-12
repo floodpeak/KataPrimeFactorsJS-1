@@ -5,7 +5,7 @@ module.exports = function(number){
     result.push(base)
     number /= base
   }
-  if(number === 4){
+  if(number % base === 0){
     result.push(base)
     number /= base
   }
