@@ -1,6 +1,6 @@
 module.exports = function(number){
   var base = 2
-  if(number % 2 === 0){
+  if(number % base === 0){
     var result = [base]
     if(number/base !== 1){
       result.push(number/base)
