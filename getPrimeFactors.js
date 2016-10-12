@@ -5,9 +5,6 @@ module.exports = function(number){
       result.push(base)
     }
   }
-  for(;number % base === 0;number /= base){
-    result.push(base)
-  }
   if(number > 1){
     result.push(number)
   }
