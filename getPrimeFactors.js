@@ -3,7 +3,7 @@ module.exports = function(number){
   var result = []
   if(number % base === 0){
     result.push(base)
-    var number = number/base
+    number = number/base
   }
   if(number > 1){
     result.push(number)
