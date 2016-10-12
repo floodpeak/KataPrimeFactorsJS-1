@@ -1,7 +1,7 @@
 module.exports = function(number){
   var base = 2
   var result = []
-  for(;number % base === 0 && number > 1;number /= base){
+  for(;number % base === 0;number /= base){
     result.push(base)
   }
   if(number > 1){
