@@ -3,6 +3,9 @@ var getPrimeFactors = require('../getPrimeFactors.js')
 
 describe("prime factor", function(){
   it("should be [] for 1", function(){
-    expect(getPrimeFactors()).to.be.eql([])
+    expect(getPrimeFactors(1)).to.be.eql([])
+  })
+  it("should be [2] for 2", function(){
+    expect(getPrimeFactors(2)).to.be.eql([2])
   })
 })
