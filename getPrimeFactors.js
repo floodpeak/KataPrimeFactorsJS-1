@@ -9,7 +9,8 @@ module.exports = function(number){
     return result
   }
   if(number > 1){
-    return [number]
+    result.push(number)
+    return result
   }
   return []
 }
