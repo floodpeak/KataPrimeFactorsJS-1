@@ -3,6 +3,6 @@ var getPrimeFactors = require('../getPrimeFactors.js')
 
 describe("prime factor", function(){
   it("should be [] for 1", function(){
-    expect(getPrimeFactors).to.be.eql([])
+    expect(getPrimeFactors()).to.be.eql([])
   })
 })
