@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/floodpeak/KataPrimeFactorsJS-1#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "^3.1.2"
   }
 }
